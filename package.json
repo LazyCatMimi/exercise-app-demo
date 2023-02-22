@@ -1,5 +1,5 @@
 {
-  "name": "exercise app demo",
+  "name": "exercise-app-demo",
   "homepage": "https://lazycatmimi.github.io/exercise-app-demo",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
