@@ -1,7 +1,7 @@
 {
   "name": "exercise-app-demo",
   "homepage": "https://LazyCatMimi.github.io/exercise-app-demo",
-  "predeploy": "yarn run build",
+  "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "version": "0.1.0",
   "private": true,
