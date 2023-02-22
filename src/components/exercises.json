@@ -12,7 +12,15 @@
     "type" : "LAP"
   },
   {
+    "name": "Swimming",
+    "type" : "LAP"
+  },
+  {
     "name": "Bicycling",
+    "type" : "DUR"
+  },
+  {
+    "name": "Walking",
     "type" : "DUR"
   }
 ]

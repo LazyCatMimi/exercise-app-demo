@@ -64,15 +64,18 @@ function Main(props) {
         })}
       </div>
       {/* Display history */}
+      <br/>
       <h2>Recent Exercises history</h2>
       <p>Your 3 most recent exercises</p>
       {historyList}
-      <button
-        onClick={() => {
-          props.setCurScreen("HIST");
-        }}>
-        view more
-      </button>
+      <div className="center-btn">
+        <button className="round"
+          onClick={() => {
+            props.setCurScreen("HIST");
+          }}>
+          view more
+        </button>
+      </div>
     </>
   );
 }

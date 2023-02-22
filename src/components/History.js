@@ -1,4 +1,6 @@
-function History (props){
+import backIcon from "../assets/arrow-left.svg"; //royalty free SVG icon from feathericons.com
+
+function History(props) {
   const weekDay = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const printData = (exercise) => {
     // print for exercise of type REPETITION
@@ -24,7 +26,7 @@ function History (props){
     props.history.length === 0 ? (
       <p>No history yet, begin an exercise to see your progress.</p>
     ) : (
-      props.history.slice(0, 3).map((exercise, i) => {
+      props.history.map((exercise, i) => {
         return (
           <div className="exercise-history" key={i}>
             <div>
@@ -44,10 +46,17 @@ function History (props){
 
   return (
     <>
-      <button onClick={() => props.setCurScreen("MAIN")}>return</button>
-      <h2>Exercises History</h2>
+      <div className="align-back">
+        {/* Return Button */}
+        <img
+          src={backIcon}
+          alt="back"
+          onClick={() => props.setCurScreen("MAIN")}
+        />
+        <h2>Exercises History</h2>
+      </div>
       {historyList}
     </>
   );
 }
-export default History
+export default History;

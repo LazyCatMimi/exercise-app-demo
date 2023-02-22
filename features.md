@@ -6,15 +6,15 @@
 
 ## TODO
 
-- add another exercise type DONE
+- DONE add another exercise type
 - do CSS
-- fix the date in history DONE?
-- history page DONE
+- DONE fix the date in history
+- DONE history page
 - swimming and running laps:
-  - "begin lap": starts timer DONE
-  - "complete lap": resets timer, total lap++ DONE
-  - keep track of total laps DONE
-  - in history, list every lap and its time DONE
+  - DONE "begin lap": starts time
+  - DONE "complete lap": resets timer, total lap++
+  - DONE keep track of total laps
+  - DONE in history, list every lap and its time
 
 ## optional?
 
