@@ -93,6 +93,16 @@ export default function LapExercise(props) {
       <button className="green-btn round" onClick={completeLap}>
         Complete Lap
       </button>
+      <br />
+      <br />
+      <br />
+      {exerciseData.map((lap, i) => {
+        return (
+          <p className="exercise-history" style={{padding:"10px", margin: "5px"}}>
+            Lap {i + 1}: {lap}
+          </p>
+        );
+      })}
     </div>
   );
 }
